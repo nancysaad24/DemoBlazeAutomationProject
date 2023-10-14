@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+	<test verbose="10" name="HomePageTests">
+		<classes>
+			<class name="Tests.HomePageTests" />
+		</classes>
+	</test>
+	<test verbose="10" name="SignUpTests">
+		<classes>
+			<class name="Tests.SignUpTests" />
+		</classes>
+	</test>
+	<test verbose="10" name="LoginTests">
+		<classes>
+			<class name="Tests.LoginTests" />
+		</classes>
+	</test>
+	<test verbose="10" name="ProductPageTests">
+		<classes>
+			<class name="Tests.ProductPageTests" />
+		</classes>
+	</test>
+	<test verbose="10" name="CartTests">
+		<classes>
+			<class name="Tests.CartTests" />
+		</classes>
+	</test>
+	
+</suite>
